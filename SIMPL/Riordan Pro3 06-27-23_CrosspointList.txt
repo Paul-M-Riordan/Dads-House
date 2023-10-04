@@ -1,0 +1,95 @@
+Crosspoint listing for C:\Crestron\Archive Projects\Dad's\SIMPL\Riordan Pro3 06-27-23.SMW
+
+Note:  Crosspoint symbols with EquipID or ControlID set to 0d are not routeable.
+
+Equipment Crosspoint Routing.                                                                       EquipID
+===========================================================================================================
+S-3.2.1.4.1                                                                                         1
+S-3.2.2.4.1                                                                                         2
+S-3.2.3.5.1                                                                                         3
+S-3.2.4.5.1                                                                                         4
+S-3.2.5.7.1                                                                                         5
+S-3.2.6.4.1                                                                                         6
+S-3.2.7.2.1                                                                                         7
+S-3.2.8.2.1                                                                                         8
+S-3.2.9.2.1                                                                                         9
+S-3.2.10.2.1                                                                                        16
+S-3.2.11.2.1                                                                                        17
+S-3.2.12.2.1                                                                                        18
+S-3.2.13.2.1                                                                                        19
+S-3.2.14.2.1                                                                                        20
+S-3.2.15.2.1                                                                                        21
+S-3.2.16.2.1                                                                                        22
+S-3.2.17.5.1                                                                                        23
+S-3.2.18.2.1                                                                                        24
+S-7.1.1                                                                                             1281
+S-7.2.1                                                                                             1282
+S-7.3.1                                                                                             1283
+S-7.4.1                                                                                             1284
+S-7.5.1                                                                                             1285
+S-7.6.1                                                                                             1286
+S-3.1.2.1                                                                                           8193
+S-3.1.3.1                                                                                           8194
+S-3.1.4.4                                                                                           8195
+S-3.1.5.4                                                                                           8196
+S-3.1.6.1                                                                                           8197
+S-3.1.7.1                                                                                           8198
+S-3.1.8.1                                                                                           8199
+S-3.1.9.1                                                                                           8200
+S-7.19.10 in macro S-7.1.2 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\chv          10001
+thstat_sked_v4_0.cmc)                                                                               
+S-7.19.10 in macro S-7.2.2 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\chv          10002
+thstat_sked_v4_0.cmc)                                                                               
+S-7.19.10 in macro S-7.3.2 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\chv          10003
+thstat_sked_v4_0.cmc)                                                                               
+S-7.19.10 in macro S-7.4.2 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\chv          10004
+thstat_sked_v4_0.cmc)                                                                               
+S-7.19.10 in macro S-7.5.2 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\chv          10005
+thstat_sked_v4_0.cmc)                                                                               
+S-7.19.10 in macro S-7.6.2 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\chv          10006
+thstat_sked_v4_0.cmc)                                                                               
+S-18.1 in macro S-3.1.2.2 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\AMFM          60000
+ (CEN-TRACK) Hardware Interface v2.0.cmc)                                                           
+S-27.2 in macro S-3.1.3.2 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\Siri          60001
+us (CEN-TRACK) Hardware Interface v2.0.cmc)                                                         
+
+Control Crosspoint Routing.                                                                         ControlID
+=============================================================================================================
+S-3.2.1.5.1                                                                                         81
+S-3.2.2.5.1                                                                                         82
+S-3.2.3.6.1                                                                                         83
+S-3.2.4.6.1                                                                                         84
+S-3.2.5.8.1                                                                                         85
+S-3.2.6.5.1                                                                                         86
+S-3.2.7.3.1                                                                                         87
+S-3.2.8.3.1                                                                                         88
+S-3.2.9.3.1                                                                                         89
+S-3.2.10.3.1                                                                                        96
+S-3.2.11.3.1                                                                                        97
+S-3.2.12.3.1                                                                                        98
+S-3.2.13.3.1                                                                                        99
+S-3.2.14.3.1                                                                                        100
+S-3.2.15.3.1                                                                                        101
+S-3.2.16.3.1                                                                                        102
+S-3.2.17.6.1                                                                                        103
+S-3.2.18.3.1                                                                                        104
+S-4.5.1.1.2                                                                                         257
+S-4.6.1.1.2                                                                                         258
+S-4.7.1.1.2                                                                                         259
+S-4.8.1.1.2                                                                                         260
+S-4.9.1.1.2                                                                                         261
+S-4.10.1.1.2                                                                                        262
+S-4.11.1.1.2                                                                                        263
+S-4.12.1.1.2                                                                                        264
+S-4.5.1.2.6                                                                                         4097
+S-4.6.1.2.6                                                                                         4098
+S-4.7.1.2.6                                                                                         4099
+S-4.8.1.2.6                                                                                         4100
+S-4.9.1.2.6                                                                                         4101
+S-4.10.1.2.6                                                                                        4102
+S-4.11.1.2.6                                                                                        4103
+S-6.2 in macro S-3.1.2.3 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\AMFM           60000
+(CEN-TRACK + C2N-TFM) Media Player UI v2.0.0.cmc)                                                   
+S-1 in macro S-3.1.3.3 (Module File C:\Program Files (x86)\Crestron\Cresdb\Modules\Sirius           60001
+XM Media Player Interface v2.0.cmc)                                                                 
+

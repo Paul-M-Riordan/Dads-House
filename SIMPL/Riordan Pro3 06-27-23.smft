@@ -1,0 +1,121 @@
+<Device Model="PRO3" Name="PRO3.">
+   <Network Type="Cresnet" Id="04">
+      <Device Model="CSA-PWS10S-HUB" DeviceId="15"/>
+      <Device Model="CLS-C6,CLS-C6M," DeviceId="1F" Name="MBR lights"/>
+      <Device Model="C2N-CBD-P" DeviceId="20" Name="mbr kp"/>
+      <Device Model="C2N-CBD-P" DeviceId="21" Name="mudrm kp"/>
+      <Device Model="C2N-CBD-P" DeviceId="22" Name="mbath"/>
+      <Device Model="C2N-CBD-P" DeviceId="23" Name="bottom of bsmt stairs"/>
+      <Device Model="HZ-KPCN" DeviceId="26" Name="pauls office"/>
+      <Device Model="HZ-KPCN" DeviceId="27" Name="top of bsmt stairs"/>
+      <Device Model="HZ-KPCN" DeviceId="28" Name="laundry"/>
+      <Device Model="HZ-KPCN" DeviceId="29" Name="bsmt dr left"/>
+      <Device Model="HZ-KPCN" DeviceId="2A" Name="bsmt dr right"/>
+      <Device Model="CLX-2DIM8" DeviceId="30"/>
+      <Device Model="CLX-2DIMFLV8,CLXI-2DIMFLV8" DeviceId="31" Name="CLX-2DIMFLV8">
+         <Network Type="Cresnet"/>
+      </Device>
+      <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="40" Name="mbath shade"/>
+      <Device Model="CSM-QMTDC-163-1-CN,CSM-QMTDC-256-2-CN,CSM-QMTDC-250-2-CN,CSM-QMTDC-250-4-CN,CSM-QMTDC-275-4-CN," DeviceId="41" Name="mbath shade"/>
+      <Device Model="CSM-QMT50-DCCN" DeviceId="46"/>
+      <Device Model="CSM-QMT50-DCCN" DeviceId="48"/>
+      <Device Model="CSM-QMT50-DCCN" DeviceId="49"/>
+      <Device Model="DIN-THSTAT" DeviceId="5A" Name="thstat pauls office"/>
+      <Device Model="CHV-TSTATA,CHV-THSTATA," DeviceId="5B" Name="tstat second floor"/>
+      <Device Model="CHV-TSTATA,CHV-THSTATA," DeviceId="5C" Name="thstat first floor"/>
+      <Device Model="CHV-TSTATA,CHV-THSTATA," DeviceId="5D" Name="tstat kitchen"/>
+      <Device Model="CHV-TSTATA,CHV-THSTATA," DeviceId="5E" Name="tstat fam rm"/>
+      <Device Model="DIN-THSTAT" DeviceId="5F" Name="tstat media room"/>
+      <Device Model="DIN-1DIMU4" DeviceId="8A" Name="mbath 1dim4"/>
+      <Device Model="DIN-8SW8" DeviceId="8B" Name="mbath 8sw8"/>
+      <Device Model="DIN-1DIMU4" DeviceId="8C" Name="mech rail 1 paul's office"/>
+      <Device Model="DIN-1DIMU4" DeviceId="8D" Name="mech rail 2 media room"/>
+      <Device Model="GLS-OIR-C-CN" DeviceId="98" Name="garage"/>
+   </Network>
+   <Network Type="Ethernet" Id="05">
+      <Device Model="TSR-310" DeviceId="03"/>
+      <Device Model="EslaveRMC3" DeviceId="0B" Name="RMC3 Remote Ethernet Processing">
+         <Network Type="Cresnet" Id="01"/>
+      </Device>
+      <Device Model="TSW-760" DeviceId="0C" Name="mbr"/>
+      <Device Model="TSW-760" DeviceId="0D" Name="kitchen"/>
+      <Device Model="TSW-760" DeviceId="0E" Name="master_bath"/>
+      <Device Model="CEN-GWEXER" DeviceId="10">
+         <Network Type="RF">
+            <Device Model="YALE-CTLL,YALE–CTDB,YALE–PBLL,YALE-PBDB,CLK-YL-YRD216,CLK-YL-YRD226,CLK-YL-YRD246,NTB-TS,YRD256-TSDB" DeviceId="03" Name="Yale Lock (Generic)"/>
+            <Device Model="CLW-DELVEX-P" DeviceId="04" Name="kit sink rec"/>
+            <Device Model="CLW-SWEX-P" DeviceId="05" Name="kids bath fan"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="06" Name="br3"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="07" Name="br4"/>
+            <Device Model="HTT-B2EX-BATT" DeviceId="08" Name="mbr 2b"/>
+            <Device Model="HTT-B2EX-BATT" DeviceId="09" Name="mbr 2b"/>
+            <Device Model="CLW-LDIMEX-1" DeviceId="0A" Name="mbr flr lamp"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="0B" Name="2nd flr hall lt"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="0C" Name="1st flr hall front lt"/>
+            <Device Model="CLW-SWEX-P" DeviceId="0D" Name="ext front dr lt"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="0E" Name="dining rm"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="0F" Name="1st flr hall back lt"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="10" Name="half bath"/>
+            <Device Model="CLW-LDIMEX-1" DeviceId="11" Name="living rm flr lamp"/>
+            <Device Model="INET-CBDEX-P,INET-CBDEX-277-P" DeviceId="12" Name="kit 7b"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="13" Name="kit recess"/>
+            <Device Model="INET-CBDEX-P,INET-CBDEX-277-P" DeviceId="14" Name="2nd flr hall 7b"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="15" Name="office"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="16" Name="kids bath"/>
+            <Device Model="CLW-SWEX-P" DeviceId="17" Name="side dr lt"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="18" Name="fam rm rec1"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="19" Name="fam rm rec2"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="1A" Name="patio dr lt"/>
+            <Device Model="CLW-SWEX-P" DeviceId="1B" Name="garage side floods"/>
+            <Device Model="INET-CBDEX-P,INET-CBDEX-277-P" DeviceId="1D" Name="lr 7b"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="1E" Name="table area front 2 rec"/>
+            <Device Model="HTT-B10EX" DeviceId="1F" Name="mbr"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="21" Name="mdress"/>
+            <Device Model="CLW-SWEX-P" DeviceId="22" Name="mbr clos"/>
+            <Device Model="CLW-SWEX-P" DeviceId="23" Name="boiler rm"/>
+         </Network>
+         <Network Type="Slot" Id="1F">
+            <Device Model="HTT-B10EX" DeviceId="1F" Name="mbr"/>
+         </Network>
+         <Network Type="RF">
+            <Device Model="YALE-CTLL,YALE–CTDB,YALE–PBLL,YALE-PBDB,CLK-YL-YRD216,CLK-YL-YRD226,CLK-YL-YRD246,NTB-TS,YRD256-TSDB" DeviceId="03" Name="Yale Lock (Generic)"/>
+            <Device Model="CLW-DELVEX-P" DeviceId="04" Name="kit sink rec"/>
+            <Device Model="CLW-SWEX-P" DeviceId="05" Name="kids bath fan"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="06" Name="br3"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="07" Name="br4"/>
+            <Device Model="HTT-B2EX-BATT" DeviceId="08" Name="mbr 2b"/>
+            <Device Model="HTT-B2EX-BATT" DeviceId="09" Name="mbr 2b"/>
+            <Device Model="CLW-LDIMEX-1" DeviceId="0A" Name="mbr flr lamp"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="0B" Name="2nd flr hall lt"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="0C" Name="1st flr hall front lt"/>
+            <Device Model="CLW-SWEX-P" DeviceId="0D" Name="ext front dr lt"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="0E" Name="dining rm"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="0F" Name="1st flr hall back lt"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="10" Name="half bath"/>
+            <Device Model="CLW-LDIMEX-1" DeviceId="11" Name="living rm flr lamp"/>
+            <Device Model="INET-CBDEX-P,INET-CBDEX-277-P" DeviceId="12" Name="kit 7b"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="13" Name="kit recess"/>
+            <Device Model="INET-CBDEX-P,INET-CBDEX-277-P" DeviceId="14" Name="2nd flr hall 7b"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="15" Name="office"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="16" Name="kids bath"/>
+            <Device Model="CLW-SWEX-P" DeviceId="17" Name="side dr lt"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="18" Name="fam rm rec1"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="19" Name="fam rm rec2"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="1A" Name="patio dr lt"/>
+            <Device Model="CLW-SWEX-P" DeviceId="1B" Name="garage side floods"/>
+            <Device Model="INET-CBDEX-P,INET-CBDEX-277-P" DeviceId="1D" Name="lr 7b"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="1E" Name="table area front 2 rec"/>
+            <Device Model="HTT-B10EX" DeviceId="1F" Name="mbr"/>
+            <Device Model="CLW-DIMEX-P" DeviceId="21" Name="mdress"/>
+            <Device Model="CLW-SWEX-P" DeviceId="22" Name="mbr clos"/>
+            <Device Model="CLW-SWEX-P" DeviceId="23" Name="boiler rm"/>
+         </Network>
+      </Device>
+      <Device Model="CEN-TRACK" DeviceId="11"/>
+      <Device Model="SWAMP" DeviceId="12" Name="SWAMP-24x8 (Ethernet)."/>
+      <Device Model="Crestron_App" DeviceId="40" Name="ipad01"/>
+      <Device Model="Crestron_App" DeviceId="41" Name="ipad02"/>
+      <Device Model="Core3 UI XPanel" DeviceId="42" Name="xpanel01"/>
+      <Device Model="Core3 UI XPanel" DeviceId="43" Name="xpanel02"/>
+   </Network>
+</Device>
